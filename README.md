@@ -1,6 +1,6 @@
 # AI Resume / Document Analyzer
 
-[English](README.md) | [Türkçe](README_TR.md)
+[English](README.md) | [Türkçe](README_TR.md) | [Deutsch](README_DE.md)
 
 FastAPI document intelligence MVP for CV and PDF text. It returns a concise summary, detected skills, experience years, a grounded answer and source filename.
 
@@ -19,4 +19,3 @@ POST /api/v1/analyze accepts filename, text and optional question. Only PDF, TXT
 Docker: docker compose up --build. Interactive API docs: /docs.
 
 The answer is deliberately grounded in submitted text and is not a hiring decision.
-

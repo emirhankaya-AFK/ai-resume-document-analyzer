@@ -1,6 +1,6 @@
 # AI Resume / Document Analyzer
 
-[English](README.md) | [Türkçe](README_TR.md)
+[English](README.md) | [Türkçe](README_TR.md) | [Deutsch](README_DE.md)
 
 CV ve PDF metni için FastAPI doküman zekâsı MVP'si. Özet, tespit edilen beceriler, deneyim yılı, metne dayalı cevap ve kaynak dosya adını döndürür.
 
@@ -19,4 +19,3 @@ POST /api/v1/analyze filename, text ve isteğe bağlı question alır. Yalnızca
 Docker: docker compose up --build. API dokümanı: /docs.
 
 Cevap yalnızca gönderilen metne dayalıdır ve işe alım kararı değildir.
-
